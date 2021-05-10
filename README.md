@@ -4,6 +4,8 @@ NYIT CSCI 300 Database Project, for instructional purposes.
 
 The project uses Vue.js for the frontend, PostgreSQL for the database, and Node.js/Express as the backend.
 
+Sequelize is used as an ORM to generate queries.
+
 ## Demo video
 
 [Demo video](https://www.youtube.com/watch?v=tapOep0ryUA)
