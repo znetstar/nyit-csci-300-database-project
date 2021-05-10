@@ -1,0 +1,87 @@
+{
+  "name": "csci-300-database-project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "cd ./web && npm run build",
+    "dev": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/znetstar/nyit-csci-300-database-project.git"
+  },
+  "contributors": [
+    {
+      "name": "znetstar",
+      "url": "https://github.com/znetstar"
+    },
+    {
+      "name": "jcardo05",
+      "url": "https://github.com/jcardo05"
+    },
+    {
+      "name": "The-Red-Hood-code",
+      "url": "https://github.com/The-Red-Hood-code"
+    },
+    {
+      "name": "Steven Correa"
+    }
+  ],
+  "license": "ISC",
+  "homepage": "https://github.com/znetstar/nyit-csci-300-database-project.git",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "connect-pg-simple": "git+https://github.com/voxpelli/node-connect-pg-simple.git",
+    "express-session": "^1.17.1",
+    "lodash": "^4.17.21",
+    "moment": "^2.29.1",
+    "node-fetch": "^2.6.1",
+    "pg": "^8.5.1",
+    "pg-hstore": "^2.3.3",
+    "sequelize": "^6.6.2"
+  },
+  "devDependencies": {
+    "autoprefixer": "^7.1.5",
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.2",
+    "babel-plugin-transform-runtime": "^6.23.0",
+    "babel-preset-env": "^1.6.0",
+    "babel-preset-stage-2": "^6.24.1",
+    "babel-register": "^6.26.0",
+    "chalk": "^2.1.0",
+    "connect-history-api-fallback": "^1.4.0",
+    "copy-webpack-plugin": "^4.1.1",
+    "css-loader": "^0.28.7",
+    "cssnano": "^3.10.0",
+    "dotenv": "^8.2.0",
+    "eventsource-polyfill": "^0.9.6",
+    "express": "^4.17.1",
+    "extract-text-webpack-plugin": "^3.0.0",
+    "file-loader": "^1.1.5",
+    "friendly-errors-webpack-plugin": "^1.6.1",
+    "html-webpack-plugin": "^2.30.1",
+    "http-proxy-middleware": "^0.17.4",
+    "nodemon": "^2.0.7",
+    "opn": "^5.1.0",
+    "optimize-css-assets-webpack-plugin": "^3.2.0",
+    "ora": "^1.3.0",
+    "rimraf": "^2.6.2",
+    "semver": "^5.4.1",
+    "shelljs": "^0.7.8",
+    "sw-precache-webpack-plugin": "^0.11.4",
+    "uglify-es": "^3.1.3",
+    "url-loader": "^0.6.2",
+    "vue-loader": "^13.3.0",
+    "vue-style-loader": "^3.0.3",
+    "vue-template-compiler": "^2.5.2",
+    "webpack": "^3.7.1",
+    "webpack-bundle-analyzer": "^2.9.0",
+    "webpack-dev-middleware": "^1.12.0",
+    "webpack-hot-middleware": "^2.19.1",
+    "webpack-merge": "^4.1.0",
+    "db-proj-web": "file:web"
+  }
+}
