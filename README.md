@@ -6,7 +6,9 @@ The project uses Vue.js for the frontend, PostgreSQL for the database, and Node.
 
 Sequelize is used as an ORM to generate queries.
 
-## Demo video
+## Demo
+
+[Live Demo](https://csci-300-db-proj.zb.gy).
 
 [Demo video](https://www.youtube.com/watch?v=tapOep0ryUA)
 
